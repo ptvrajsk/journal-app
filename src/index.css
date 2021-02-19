@@ -1,4 +1,9 @@
 body {
+<<<<<<< HEAD
+=======
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+>>>>>>> main
   font-family:
     -apple-system,
     BlinkMacSystemFont,
