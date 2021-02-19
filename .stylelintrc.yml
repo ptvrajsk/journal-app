@@ -28,9 +28,6 @@ rules:
   block-opening-brace-newline-after: always
   selector-attribute-brackets-space-inside: always
   value-list-comma-newline-after: always-multi-line
-  value-list-comma-space-after: always
+  value-list-comma-space-after: always-single-line
   value-list-comma-space-before: never
   indentation: 2
-
-
-
