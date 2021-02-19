@@ -31,6 +31,3 @@ rules:
   value-list-comma-space-after: always
   value-list-comma-space-before: never
   indentation: 2
-
-
-
