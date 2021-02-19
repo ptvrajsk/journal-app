@@ -1,0 +1,36 @@
+rules:
+  rule-empty-line-before:
+    - always
+    - except:
+      - after-single-line-comment
+      - inside-block
+      - first-nested
+    - ignore:
+      - after-comment
+  color-no-invalid-hex: true
+  font-family-no-duplicate-names: true
+  function-calc-no-invalid: true
+  function-linear-gradient-no-nonstandard-direction: true
+  string-no-newline: true
+  unit-no-unknown: true
+  property-no-unknown: true
+  block-no-empty: true
+  length-zero-no-unit: true
+  string-quotes: single
+  unit-case: lower
+  declaration-bang-space-after: never
+  declaration-bang-space-before: always
+  declaration-colon-newline-after: always-multi-line
+  declaration-colon-space-after: always
+  declaration-colon-space-before: never
+  declaration-empty-line-before: never
+  block-closing-brace-empty-line-before: never
+  block-opening-brace-newline-after: always
+  selector-attribute-brackets-space-inside: always
+  value-list-comma-newline-after: always-multi-line
+  value-list-comma-space-after: always
+  value-list-comma-space-before: never
+  indentation: 2
+
+
+

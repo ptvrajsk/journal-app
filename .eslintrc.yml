@@ -1,0 +1,32 @@
+rules:
+  extends: eslint:recommended
+  plugins:
+    - react
+    - import
+    - async-await
+  curly: error
+  quotes: 
+    - error
+    - double
+  eqeqeq: 
+    - error
+    - smart
+  default-case: error
+  default-case-last: error
+  jsx-quotes: 
+    - error
+    - prefer-single
+  eol-last: 
+    - error
+    - always
+  indent: 
+    - error
+    - 2
+  no-trailing-spaces: error
+  arrow-parens: 
+    - error
+    - always
+  arrow-spacing: 
+    - error
+    - before: true
+    - after: true
